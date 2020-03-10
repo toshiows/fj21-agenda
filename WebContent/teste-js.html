@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script type="text/javascript">
+
+function acao(){
+	$("#div1").html("Troquei");
+}
+
+</script>
+</head>
+<body>
+<div id="div1">sou uma div</div>
+<div id="div1">Outra DIV</div>
+
+<input type="button" value="ok" onclick="acao()">
+
+<input type="text" id="dt_ini">
+
+<script>
+$("#dt_ini").datepicker();
+</script>
+</body>
+</html>
